@@ -1,22 +1,19 @@
-#!/bin/bash 
-#will alter code environment to enable features
-conda activate genomics 
+#!/bin/bash
+conda activate genomics
 
+cd ~/gen711-811-example
 
-cd ~/gen711-project
+polyg_len=200 ## copied from qiime2_parameters.sh
 
-# make output directories. only run once. 
-mkdir poly-G-trimmed html results metadata
+### Run polyG filter. This will remove polyG tails and also filter out reads that are too short after trimming.
+chmod +x code/polyGfilter.sh
 
-#removes the poly G tails and filter out reads
-# a 4 loop
-chmod +x ../code/polyGfilter.sh
-.../code/polyGfilter.sh ${polyg_len}
+### This is the same as..
+code/polyGfilter.sh ${polyg_len}
+### this
+code/polyGfilter.sh 200 
 
-# if I don't want to run the loop, I can input the number instead
-.../code/polyGfilter.sh 200
+## Remove empty files before qiime import
+find data/poly-G-trimmed/ -size 0 -print -delete
 
-#remove empty files before qiime import 
-find poly-G-trimmed -size 0 -print -delete
-
-##next! 
+## Proceed to 02_cutadapt.sh
