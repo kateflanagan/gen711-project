@@ -1,0 +1,400 @@
+Read1 before filtering:
+total reads: 388357
+total bases: 97477607
+Q20 bases: 93322068(95.7369%)
+Q30 bases: 87259660(89.5176%)
+
+Read2 before filtering:
+total reads: 388357
+total bases: 97477607
+Q20 bases: 91934004(94.3129%)
+Q30 bases: 85481361(87.6933%)
+
+Read1 after filtering:
+total reads: 354115
+total bases: 88610854
+Q20 bases: 84983919(95.9069%)
+Q30 bases: 79332005(89.5285%)
+
+Read2 after filtering:
+total reads: 354115
+total bases: 88276016
+Q20 bases: 83351630(94.4216%)
+Q30 bases: 77277930(87.5413%)
+
+Filtering result:
+reads passed filter: 708230
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 68484
+
+Duplication rate: 18.6921%
+
+Insert size peak (evaluated by paired-end reads): 312
+
+JSON report: fastp.json
+HTML report: data/html/MassExtra-Ref-8749_S1325.html
+
+fastp --in1 data/fastqs/MassExtra-Ref-8749_S1325_L002_R1_001.fastq.gz --in2 data/fastqs/MassExtra-Ref-8749_S1325_L002_R2_001.fastq.gz --html data/html/MassExtra-Ref-8749_S1325.html --out1 data/poly-G-trimmed/MassExtra-Ref-8749_S1325_L002_R1_001.fastq.gz --out2 data/poly-G-trimmed/MassExtra-Ref-8749_S1325_L002_R2_001.fastq.gz --cut_tail --poly_g_min_len 4 --cut_tail_mean_quality 25 --cut_tail_window_size 2 --disable_adapter_trimming -l 200 -g -Q 
+fastp v0.23.4, time used: 2 seconds
+MassExtra-Ref-8749_S1325_L002_R1_001.fastq.gz
+Read1 before filtering:
+total reads: 356015
+total bases: 89359765
+Q20 bases: 85063863(95.1926%)
+Q30 bases: 79240735(88.6761%)
+
+Read2 before filtering:
+total reads: 356015
+total bases: 89359765
+Q20 bases: 84798977(94.8962%)
+Q30 bases: 79170534(88.5975%)
+
+Read1 after filtering:
+total reads: 333248
+total bases: 83380230
+Q20 bases: 79740600(95.6349%)
+Q30 bases: 74178863(88.9646%)
+
+Read2 after filtering:
+total reads: 333248
+total bases: 83144051
+Q20 bases: 79276493(95.3484%)
+Q30 bases: 73890203(88.8701%)
+
+Filtering result:
+reads passed filter: 666496
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 45534
+
+Duplication rate: 22.3648%
+
+Insert size peak (evaluated by paired-end reads): 312
+
+JSON report: fastp.json
+HTML report: data/html/OverRef-0897_S1339.html
+
+fastp --in1 data/fastqs/OverRef-0897_S1339_L002_R1_001.fastq.gz --in2 data/fastqs/OverRef-0897_S1339_L002_R2_001.fastq.gz --html data/html/OverRef-0897_S1339.html --out1 data/poly-G-trimmed/OverRef-0897_S1339_L002_R1_001.fastq.gz --out2 data/poly-G-trimmed/OverRef-0897_S1339_L002_R2_001.fastq.gz --cut_tail --poly_g_min_len 4 --cut_tail_mean_quality 25 --cut_tail_window_size 2 --disable_adapter_trimming -l 200 -g -Q 
+fastp v0.23.4, time used: 1 seconds
+OverRef-0897_S1339_L002_R1_001.fastq.gz
+Read1 before filtering:
+total reads: 329698
+total bases: 82754198
+Q20 bases: 75937063(91.7622%)
+Q30 bases: 67531599(81.605%)
+
+Read2 before filtering:
+total reads: 329698
+total bases: 82754198
+Q20 bases: 78476909(94.8313%)
+Q30 bases: 73306378(88.5833%)
+
+Read1 after filtering:
+total reads: 313389
+total bases: 78285748
+Q20 bases: 71979840(91.945%)
+Q30 bases: 63967937(81.7108%)
+
+Read2 after filtering:
+total reads: 313389
+total bases: 78143641
+Q20 bases: 74429051(95.2465%)
+Q30 bases: 69516901(88.9604%)
+
+Filtering result:
+reads passed filter: 626778
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 32618
+
+Duplication rate: 6.59846%
+
+Insert size peak (evaluated by paired-end reads): 312
+
+JSON report: fastp.json
+HTML report: data/html/OverRef-3809_S1334.html
+
+fastp --in1 data/fastqs/OverRef-3809_S1334_L002_R1_001.fastq.gz --in2 data/fastqs/OverRef-3809_S1334_L002_R2_001.fastq.gz --html data/html/OverRef-3809_S1334.html --out1 data/poly-G-trimmed/OverRef-3809_S1334_L002_R1_001.fastq.gz --out2 data/poly-G-trimmed/OverRef-3809_S1334_L002_R2_001.fastq.gz --cut_tail --poly_g_min_len 4 --cut_tail_mean_quality 25 --cut_tail_window_size 2 --disable_adapter_trimming -l 200 -g -Q 
+fastp v0.23.4, time used: 1 seconds
+OverRef-3809_S1334_L002_R1_001.fastq.gz
+Read1 before filtering:
+total reads: 264040
+total bases: 66274040
+Q20 bases: 62798629(94.756%)
+Q30 bases: 58634676(88.4731%)
+
+Read2 before filtering:
+total reads: 264040
+total bases: 66274040
+Q20 bases: 62299310(94.0026%)
+Q30 bases: 58281846(87.9407%)
+
+Read1 after filtering:
+total reads: 207744
+total bases: 51979946
+Q20 bases: 49710702(95.6344%)
+Q30 bases: 46201196(88.8827%)
+
+Read2 after filtering:
+total reads: 207744
+total bases: 51738115
+Q20 bases: 48978893(94.6669%)
+Q30 bases: 45620750(88.1763%)
+
+Filtering result:
+reads passed filter: 415488
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 112592
+
+Duplication rate: 12.2095%
+
+Insert size peak (evaluated by paired-end reads): 312
+
+JSON report: fastp.json
+HTML report: data/html/OverRef-7631_S1328.html
+
+fastp --in1 data/fastqs/OverRef-7631_S1328_L002_R1_001.fastq.gz --in2 data/fastqs/OverRef-7631_S1328_L002_R2_001.fastq.gz --html data/html/OverRef-7631_S1328.html --out1 data/poly-G-trimmed/OverRef-7631_S1328_L002_R1_001.fastq.gz --out2 data/poly-G-trimmed/OverRef-7631_S1328_L002_R2_001.fastq.gz --cut_tail --poly_g_min_len 4 --cut_tail_mean_quality 25 --cut_tail_window_size 2 --disable_adapter_trimming -l 200 -g -Q 
+fastp v0.23.4, time used: 2 seconds
+OverRef-7631_S1328_L002_R1_001.fastq.gz
+Read1 before filtering:
+total reads: 337831
+total bases: 84795581
+Q20 bases: 76983436(90.7871%)
+Q30 bases: 67690913(79.8283%)
+
+Read2 before filtering:
+total reads: 337831
+total bases: 84795581
+Q20 bases: 79144577(93.3357%)
+Q30 bases: 73361204(86.5154%)
+
+Read1 after filtering:
+total reads: 335144
+total bases: 83698403
+Q20 bases: 76160679(90.9942%)
+Q30 bases: 66970112(80.0136%)
+
+Read2 after filtering:
+total reads: 335144
+total bases: 83467805
+Q20 bases: 78226122(93.7201%)
+Q30 bases: 72541942(86.9101%)
+
+Filtering result:
+reads passed filter: 670288
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 5374
+
+Duplication rate: 2.77683%
+
+Insert size peak (evaluated by paired-end reads): 312
+
+JSON report: fastp.json
+HTML report: data/html/OverStrs-1871_S1338.html
+
+fastp --in1 data/fastqs/OverStrs-1871_S1338_L002_R1_001.fastq.gz --in2 data/fastqs/OverStrs-1871_S1338_L002_R2_001.fastq.gz --html data/html/OverStrs-1871_S1338.html --out1 data/poly-G-trimmed/OverStrs-1871_S1338_L002_R1_001.fastq.gz --out2 data/poly-G-trimmed/OverStrs-1871_S1338_L002_R2_001.fastq.gz --cut_tail --poly_g_min_len 4 --cut_tail_mean_quality 25 --cut_tail_window_size 2 --disable_adapter_trimming -l 200 -g -Q 
+fastp v0.23.4, time used: 1 seconds
+OverStrs-1871_S1338_L002_R1_001.fastq.gz
+Read1 before filtering:
+total reads: 414933
+total bases: 104148183
+Q20 bases: 97905196(94.0057%)
+Q30 bases: 89356676(85.7976%)
+
+Read2 before filtering:
+total reads: 414933
+total bases: 104148183
+Q20 bases: 97209041(93.3372%)
+Q30 bases: 89762147(86.187%)
+
+Read1 after filtering:
+total reads: 413550
+total bases: 103430385
+Q20 bases: 97389952(94.1599%)
+Q30 bases: 88914308(85.9654%)
+
+Read2 after filtering:
+total reads: 413550
+total bases: 103084887
+Q20 bases: 96583939(93.6936%)
+Q30 bases: 89230803(86.5605%)
+
+Filtering result:
+reads passed filter: 827100
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 2766
+
+Duplication rate: 11.9475%
+
+Insert size peak (evaluated by paired-end reads): 312
+
+JSON report: fastp.json
+HTML report: data/html/OverStrs-6365_S1315.html
+
+fastp --in1 data/fastqs/OverStrs-6365_S1315_L002_R1_001.fastq.gz --in2 data/fastqs/OverStrs-6365_S1315_L002_R2_001.fastq.gz --html data/html/OverStrs-6365_S1315.html --out1 data/poly-G-trimmed/OverStrs-6365_S1315_L002_R1_001.fastq.gz --out2 data/poly-G-trimmed/OverStrs-6365_S1315_L002_R2_001.fastq.gz --cut_tail --poly_g_min_len 4 --cut_tail_mean_quality 25 --cut_tail_window_size 2 --disable_adapter_trimming -l 200 -g -Q 
+fastp v0.23.4, time used: 3 seconds
+OverStrs-6365_S1315_L002_R1_001.fastq.gz
+Read1 before filtering:
+total reads: 259219
+total bases: 65063969
+Q20 bases: 61376678(94.3328%)
+Q30 bases: 56652419(87.0719%)
+
+Read2 before filtering:
+total reads: 259219
+total bases: 65063969
+Q20 bases: 61293165(94.2045%)
+Q30 bases: 57106722(87.7701%)
+
+Read1 after filtering:
+total reads: 224627
+total bases: 56152703
+Q20 bases: 53163682(94.677%)
+Q30 bases: 48892661(87.0709%)
+
+Read2 after filtering:
+total reads: 224627
+total bases: 55963035
+Q20 bases: 52735449(94.2326%)
+Q30 bases: 48925268(87.4243%)
+
+Filtering result:
+reads passed filter: 449254
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 69184
+
+Duplication rate: 11.3009%
+
+Insert size peak (evaluated by paired-end reads): 312
+
+JSON report: fastp.json
+HTML report: data/html/OverStrs-6971_S1324.html
+
+fastp --in1 data/fastqs/OverStrs-6971_S1324_L002_R1_001.fastq.gz --in2 data/fastqs/OverStrs-6971_S1324_L002_R2_001.fastq.gz --html data/html/OverStrs-6971_S1324.html --out1 data/poly-G-trimmed/OverStrs-6971_S1324_L002_R1_001.fastq.gz --out2 data/poly-G-trimmed/OverStrs-6971_S1324_L002_R2_001.fastq.gz --cut_tail --poly_g_min_len 4 --cut_tail_mean_quality 25 --cut_tail_window_size 2 --disable_adapter_trimming -l 200 -g -Q 
+fastp v0.23.4, time used: 1 seconds
+OverStrs-6971_S1324_L002_R1_001.fastq.gz
+Read1 before filtering:
+total reads: 305807
+total bases: 76757557
+Q20 bases: 66215856(86.2662%)
+Q30 bases: 55498835(72.3041%)
+
+Read2 before filtering:
+total reads: 305807
+total bases: 76757557
+Q20 bases: 70846458(92.299%)
+Q30 bases: 64851046(84.4882%)
+
+Read1 after filtering:
+total reads: 301726
+total bases: 75162012
+Q20 bases: 65045903(86.5409%)
+Q30 bases: 54515452(72.5306%)
+
+Read2 after filtering:
+total reads: 301726
+total bases: 75088635
+Q20 bases: 69593223(92.6814%)
+Q30 bases: 63703299(84.8375%)
+
+Filtering result:
+reads passed filter: 603452
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 8162
+
+Duplication rate: 0.560157%
+
+Insert size peak (evaluated by paired-end reads): 312
+
+JSON report: fastp.json
+HTML report: data/html/OverStrs-8635_S1305.html
+
+fastp --in1 data/fastqs/OverStrs-8635_S1305_L002_R1_001.fastq.gz --in2 data/fastqs/OverStrs-8635_S1305_L002_R2_001.fastq.gz --html data/html/OverStrs-8635_S1305.html --out1 data/poly-G-trimmed/OverStrs-8635_S1305_L002_R1_001.fastq.gz --out2 data/poly-G-trimmed/OverStrs-8635_S1305_L002_R2_001.fastq.gz --cut_tail --poly_g_min_len 4 --cut_tail_mean_quality 25 --cut_tail_window_size 2 --disable_adapter_trimming -l 200 -g -Q 
+fastp v0.23.4, time used: 2 seconds
+OverStrs-8635_S1305_L002_R1_001.fastq.gz
+Read1 before filtering:
+total reads: 490469
+total bases: 123107719
+Q20 bases: 117465060(95.4165%)
+Q30 bases: 109177337(88.6844%)
+
+Read2 before filtering:
+total reads: 490469
+total bases: 123107719
+Q20 bases: 115709026(93.9901%)
+Q30 bases: 107568542(87.3776%)
+
+Read1 after filtering:
+total reads: 487849
+total bases: 122104860
+Q20 bases: 116680177(95.5574%)
+Q30 bases: 108472811(88.8358%)
+
+Read2 after filtering:
+total reads: 487849
+total bases: 121584316
+Q20 bases: 114723399(94.3571%)
+Q30 bases: 106697575(87.756%)
+
+Filtering result:
+reads passed filter: 975698
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 5240
+
+Duplication rate: 13.5876%
+
+Insert size peak (evaluated by paired-end reads): 312
+
+JSON report: fastp.json
+HTML report: data/html/OverStrs-9519_S1306.html
+
+fastp --in1 data/fastqs/OverStrs-9519_S1306_L002_R1_001.fastq.gz --in2 data/fastqs/OverStrs-9519_S1306_L002_R2_001.fastq.gz --html data/html/OverStrs-9519_S1306.html --out1 data/poly-G-trimmed/OverStrs-9519_S1306_L002_R1_001.fastq.gz --out2 data/poly-G-trimmed/OverStrs-9519_S1306_L002_R2_001.fastq.gz --cut_tail --poly_g_min_len 4 --cut_tail_mean_quality 25 --cut_tail_window_size 2 --disable_adapter_trimming -l 200 -g -Q 
+fastp v0.23.4, time used: 2 seconds
+OverStrs-9519_S1306_L002_R1_001.fastq.gz
+Read1 before filtering:
+total reads: 409475
+total bases: 102778225
+Q20 bases: 96314635(93.7111%)
+Q30 bases: 87896358(85.5204%)
+
+Read2 before filtering:
+total reads: 409475
+total bases: 102778225
+Q20 bases: 96405387(93.7994%)
+Q30 bases: 89376676(86.9607%)
+
+Read1 after filtering:
+total reads: 396545
+total bases: 99129232
+Q20 bases: 93101097(93.9189%)
+Q30 bases: 84901576(85.6474%)
+
+Read2 after filtering:
+total reads: 396545
+total bases: 98793671
+Q20 bases: 92953382(94.0884%)
+Q30 bases: 86107412(87.1588%)
+
+Filtering result:
+reads passed filter: 793090
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 25860
+
+Duplication rate: 8.61689%
+
+Insert size peak (evaluated by paired-end reads): 312
+
+JSON report: fastp.json
+HTML report: data/html/PrimeRef-0065_S1327.html
+
+fastp --in1 data/fastqs/PrimeRef-0065_S1327_L002_R1_001.fastq.gz --in2 data/fastqs/PrimeRef-0065_S1327_L002_R2_001.fastq.gz --html data/html/PrimeRef-0065_S1327.html --out1 data/poly-G-trimmed/PrimeRef-0065_S1327_L002_R1_001.fastq.gz --out2 data/poly-G-trimmed/PrimeRef-0065_S1327_L002_R2_001.fastq.gz --cut_tail --poly_g_min_len 4 --cut_tail_mean_quality 25 --cut_tail_window_size 2 --disable_adapter_trimming -l 200 -g -Q 
+fastp v0.23.4, time used: 3 seconds
+PrimeRef-0065_S1327_L002_R1_001.fastq.gz
