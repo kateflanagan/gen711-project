@@ -1,5 +1,7 @@
 
- RBCL
+ #!/bin/bash
+
+ ##RBCL
     
     fw1="^AGGTGAAGTAAAAGGTTCWTACTTAAA"
     fw2="^AGGTGAAGTTAAAGGTTCWTAYTTAAA"
@@ -11,7 +13,7 @@
     cutadapt_config="--p-front-f $fw1 --p-front-f $fw2 --p-front-f $fw3 --p-front-r $rv1 --p-front-r $rv2"
 
 
-    polyg_len=150
+    polyg_len=200
     
     ## denoise
     ## trunc

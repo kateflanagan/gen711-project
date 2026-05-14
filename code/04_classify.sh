@@ -1,23 +1,28 @@
 #!/bin/bash
 
-made changes here
+#made changes here
 
-primer="16s_V4-V5"
-projname="YOURPROJ_${primer}"
+primer="RBCL"
+projname="DEP_${primer}"
+threads=4
 
 ## Classifiy
-refreads=${refdbs/16s/ref_seqs_16S_V4-V5.qza}
-reftax=${refdbs/16s/99_otus_16S_taxonomy.qza}
-sklearn=${refdbs/16s/silva_99_otus_16S_nb-classifier.qza}
+refreads=${refreads:-/home/unhAW/jtmiller/watts/ref-database/rbcl/diat_barcode_v10_263bp-seqs.qza}
+reftax=${reftax:-/home/unhAW/jtmiller/watts/ref-database/rbcl/diat_barcode_v10_263bp-tax.qza}
+blastdb=${blastdb:-/home/unhAW/jtmiller/watts/ref-database/rbcl/blast_diat.barcode}
+sklearn=${sklearn:-/home/unhAW/jtmiller/watts/ref-database/rbcl/diat_barcode_v10_263bp-sklearn-classifier.qza}
+
 
 ## copied from qiime2_parameters.sh
-maxaccepts=10
-query_cov=0.75 
-perc_identity=0.75 
-weak_id=0.65
+maxaccepts=all
+query_cov=0.80 
+perc_identity=0.80
+weak_id=0.50 
+
+#tophit_perc_identity=0.90
 
 qiime feature-classifier classify-hybrid-vsearch-sklearn \
-  --i-query results/${projname}_rep-seqs.qza \
+  --i-query data/results/${projname}_rep-seqs.qza \
   --i-classifier ${sklearn} \
   --i-reference-reads ${refreads} \
   --i-reference-taxonomy  ${reftax} \
@@ -29,4 +34,6 @@ qiime feature-classifier classify-hybrid-vsearch-sklearn \
   --p-maxhits all \
   --p-min-consensus 0.51 \
   --p-confidence 0.7 \
-  --o-classification results/${projname}_hybrid_taxonomy
+  --o-classification data/results/${projname}_hybrid_taxonomy.qza
+
+  echo "Classification complete!"

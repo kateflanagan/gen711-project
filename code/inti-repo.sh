@@ -17,4 +17,11 @@ mv poly-G-trimmed/ data/poly-G-trimmed/
 ## Before doing this, make sure the fastqs directory is on the .gitignore file, so that the large files are not tracked by git
 cp /tmp/GEN711-811_data/MassDEP/fastqs/*.fastq.gz data/fastqs/
 
+mkdir -p /tmp/GEN711-811_data/MassDEP/fastqs /tmp/GEN711-811_data/MassDEP/metadata
+cp \
+  /home/users/jtm1171/cobb-data.sr.unh.edu/projects/251028_A01346_0193_AHCMCLDRX7_AMP-102825-TetraTech-MassDiatoms-2025/reads/*fastq.gz \
+  /tmp/GEN711-811_data/MassDEP/fastqs/
+cp metadata/rename-2025.tsv /tmp/GEN711-811_data/MassDEP/metadata/rename-2025.tsv
+chmod +r -R /tmp/GEN711-811_data
+
 ## Proceed to 01_trim.sh

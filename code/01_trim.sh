@@ -1,7 +1,7 @@
 #!/bin/bash
 conda activate genomics
 
-cd ~/gen711-811-example
+cd ~/old
 
 polyg_len=200 ## copied from qiime2_parameters.sh
 
