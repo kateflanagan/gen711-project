@@ -1,0 +1,88 @@
+code/polyGfilter.sh: line 12: fastp: command not found
+MassExtra-Ref-8749_S1325_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+OverRef-0897_S1339_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+OverRef-3809_S1334_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+OverRef-7631_S1328_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+OverStrs-1871_S1338_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+OverStrs-6365_S1315_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+OverStrs-6971_S1324_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+OverStrs-8635_S1305_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+OverStrs-9519_S1306_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-0065_S1327_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-0363-QC_S1299_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-0363_S1298_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-0379_S1300_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-0783_S1337_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-1781_S1335_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-2325_S1314_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-4614_S1301_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-5379_S1322_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-6366_S1317_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-6395_S1323_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-7271_S1310_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-8122_S1336_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-8541_S1331_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-9677-QC_S1304_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeRef-9677_S1303_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-0917_S1341_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-1863_S1312_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-3779_S1302_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-4293_S1319_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-4305_S1308_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-4829_S1318_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-5837_S1326_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-6327_S1320_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-6989_S1307_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-7147_S1321_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-7435_S1316_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-7587_S1329_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-8297_S1330_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-8773-QC_S1333_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-8773_S1332_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-8803-QC_S1311_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-8803_S1309_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+PrimeStrs-97435_S1313_L002_R1_001.fastq.gz
+code/polyGfilter.sh: line 12: fastp: command not found
+W1057_S1340_L002_R1_001.fastq.gz
