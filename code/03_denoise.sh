@@ -1,14 +1,16 @@
 #!/bin/bash
 
 primer="RBCL"
-projname="DEP_${primer}"
+projname="DIATOMS_${primer}"
 
-## Number of bp overlapping between forward and reverse reads required for merging in DADA2. Default is 12, but I have found that this can be relaxed to 10 for 16s V4-V5 amplicons without a significant loss of quality. This allows more reads to be retained after denoising. See
+conda activate qiime2-amplicon-2026.1
+
+threads=16
 overlap=10
 
 ## trunc
 trunclenf=220
-trunclenr=215
+trunclenr=200
     
 ## trim
 trimleftf=0
@@ -27,7 +29,8 @@ qiime dada2 denoise-paired \
     --p-min-overlap ${overlap} \
     --p-allow-one-off \
     --o-denoising-stats data/results/${projname}_dns.qza \
+    --o-base-transition-stats data/results/${projname}_base-transitions.qza \
     --o-table data/results/${projname}_table.qza \
-    --o-representative-sequences data/results/${projname}_rep-seqs.qza \
+    --o-representative-sequences data/results/${projname}_rep-seqs.qza
 
 echo "Denoise complete!"

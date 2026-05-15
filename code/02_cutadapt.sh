@@ -5,7 +5,7 @@ primer="RBCL"
 projname="DIATOMS_${primer}"
 
 # 2. entering QIIME environment 
-conda activate qiime2-amplicon-2026.1
+#conda activate qiime2-amplicon-2026.1
 
 # 3. setting primers 
     fw1="^AGGTGAAGTAAAAGGTTCWTACTTAAA"
@@ -21,9 +21,9 @@ cutadapt_config="--p-front-f $fw1 --p-front-f $fw2 --p-front-f $fw3 --p-front-r 
 # 5. Import FastQs
 echo "Importing sequences..."
 qiime tools import \
-    --type 'SampleData[PairedEndSequencesWithQuality]' \
+    --type "SampleData[PairedEndSequencesWithQuality]" \
     --input-format CasavaOneEightSingleLanePerSampleDirFmt \
-    --input-path data/poly-G-trimmed \
+    --input-path data/poly-G-trimmed/ \
     --output-path data/results/${projname}_demux.qza
 
 # 6. trim primers

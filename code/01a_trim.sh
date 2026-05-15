@@ -10,10 +10,8 @@ chmod +x code/polyGfilter.sh
 
 ### This is the same as..
 code/polyGfilter.sh ${polyg_len}
-### this
-code/polyGfilter.sh 200 
 
 ## Remove empty files before qiime import
-find data/poly_G_trimmed/ -size 0 -print -delete
+find data/poly-G-trimmed/ -size 0 -print -delete
 
 ## Proceed to 02_cutadapt.sh

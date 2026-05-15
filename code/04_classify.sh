@@ -3,13 +3,13 @@
 #made changes here
 
 primer="RBCL"
-projname="DEP_${primer}"
-threads=4
+projname="DIATOMS_${primer}"
+threads=15
 
 ## Classifiy
 refreads=${refreads:-/home/unhAW/jtmiller/watts/ref-database/rbcl/diat_barcode_v10_263bp-seqs.qza}
 reftax=${reftax:-/home/unhAW/jtmiller/watts/ref-database/rbcl/diat_barcode_v10_263bp-tax.qza}
-blastdb=${blastdb:-/home/unhAW/jtmiller/watts/ref-database/rbcl/blast_diat.barcode}
+
 sklearn=${sklearn:-/home/unhAW/jtmiller/watts/ref-database/rbcl/diat_barcode_v10_263bp-sklearn-classifier.qza}
 
 
