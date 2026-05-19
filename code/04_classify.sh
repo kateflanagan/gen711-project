@@ -13,7 +13,7 @@ threads=15
 ## Classifiy variables, copied from qiime2_parameters.sh > these are the inputs so the classifier can see how the taxa and reads need to be classified
     refreads="data/refdb/diat_barcode_v10_263bp-seqs.qza"
     reftax="data/refdb/diat_barcode_v10_263bp-tax.qza"
-    
+
 ## Using given classifier
     sklearn="data/refdb/diat_barcode_v10_263bp-sklearn-classifier_1.4.2.qza"
 
